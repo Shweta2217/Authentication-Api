@@ -1,0 +1,21 @@
+{
+  "name": "login-logout_Api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shweta",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^12.0.3",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.6"
+
+  },
+  "scripts": {
+    "start": "node app"
+  }
+}
