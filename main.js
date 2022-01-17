@@ -75,7 +75,7 @@ Router.post("/login", (req, res) => {
   let Password = req.body.password;
   User.findOne({ email: email }, (err, user) => {
     if (err) console.log(err);
-    if (user.length == 0)
+    if (user)
       res.send({ message: "InCorrect Email", auth: false, token: "No Token" });
     else {
       let Hash = user.password;
